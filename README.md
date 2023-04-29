@@ -8,6 +8,9 @@ HomeScopeCA is a powerful web application that can provide valuable insights to 
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
+## Screenshots
+![Example Image](public/images/homescopeca_hero.jpg)
+
 
 ## Installation
 
