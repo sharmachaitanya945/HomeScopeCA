@@ -73,3 +73,19 @@ Step 10] Start the node.js server on your machine:
 ```bash
 node app.js 
 ```
+
+## FAQ
+
+#### Can i use mindsdb cloud in this project?
+
+Yes, you can use mindsdb cloud by registering the account on mindsdb by visiting https://cloud.mindsdb.com and by adding api key to project by changing some code. 
+
+#### Which dataset you used in the project?
+
+I had used California Housing Prices dataset from kaggle which contains more than 20000 thousand rows. It was 1990 census data.  
+
+#### How long does it take to train the dataset?
+
+I had used linode cloud hosting virtual machine running on ubuntu 22, 8gb ram, 4 core cpu took 35 - 40 minutes to create & train the model. 
+
+
