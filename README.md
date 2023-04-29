@@ -4,14 +4,40 @@ HomeScopeCA is a web application that uses MindsDB AI & Node.js to predict or fo
 
 HomeScopeCA is a powerful web application that can provide valuable insights to anyone who is interested in buying & selling property in California. 
 
-## License
-
+### License
 [MIT](https://choosealicense.com/licenses/mit/)
-
-## Screenshots
+### Demo Url 
+[[Demo Live Site]](http://45.79.31.246:3000/)
+### Screenshot
 ![Example Image](public/images/homescopeca_hero.jpg)
 
+## Tech Stack
 
+ - HTML, Bootstrap 3, Chart.js , EJS template engine, MindsDB JavaScript SDK (Frontend).
+ - Express, Node.js (Backend).
+ - MindsDB (Machine Learning, AI Tables)
+ - Linode Cloud (For Hosting Mindsdb docker image, Node.js on linode VM) 
+
+
+## System requirements
+
+ - 4 core cpu Intel or Amd.
+ - 6 gb ram.
+ - 30 gb hard disk.
+ - Installed latest Docker Engine.
+ - Installed latest Node.js & Npm.
+ - Ubuntu (Recommend) or Mac os or Windows.
+ - 4 gb data to download mindsdb docker image.
+
+## Project Flow
+
+ - A user who want to predit the house price in CA can visit the site home page.
+ - In the form the user have to enter the values required to predit the house price in CA.
+ - After submiting form the request is sent to mindsdb server by node.js server to predit the house price for the given input.
+ - The node.js server get the response from the mindsdb server with the data. 
+ - In the result page the value of the house price, Ocean proximity along with the California median values by Ocean Proximity is displayed. 
+ - The user can view the average no of rooms, median price in CA over time in the Bar chart & Scatter Plot by clicking the dashboard page on the upper right of the home page.
+ 
 ## Installation
 
 Steps to run app on localhost
