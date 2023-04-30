@@ -1,6 +1,6 @@
 # HomeScopeCA
 
-HomeScopeCA is a web application that uses MindsDB AI & Node.js to predict or forecast house prices in California. The prediction is based on the trained machine-learning model developed using historical data on house prices in California. 
+HomeScopeCA is a open source web app that uses MindsDB AI & Node.js to predict or forecast house price in California. The prediction is based on the trained machine-learning model developed using historical data on house prices in California. 
 
 HomeScopeCA is a powerful web application that can provide valuable insights to anyone who is interested in buying & selling property in California. 
 
@@ -31,9 +31,9 @@ HomeScopeCA is a powerful web application that can provide valuable insights to 
 
 ## Project Flow
 
- - A user who want to predit the house price in CA can visit the site home page.
- - In the form the user have to enter the values required to predit the house price in CA.
- - After submiting form the request is sent to mindsdb server by node.js server to predit the house price for the given input.
+ - A user who want to predict the house price in CA can visit the site home page.
+ - In the form the user have to enter the values required to predict the house price in CA.
+ - After submiting form the request is sent to mindsdb server by node.js server to predict the house price for the given input.
  - The node.js server get the response from the mindsdb server with the data. 
  - In the result page the value of the house price, Ocean proximity along with the California median values by Ocean Proximity is displayed. 
  - The user can view the average no of rooms, median price in CA over time in the Bar chart & Scatter Plot by clicking the dashboard page on the upper right of the home page.
@@ -76,13 +76,13 @@ node app.js
 
 ## FAQ
 
-#### Can i use mindsdb cloud in this project?
+#### Can I use MindsDB Cloud in this project?
 
-Yes, you can use mindsdb cloud by registering the account on mindsdb by visiting https://cloud.mindsdb.com and by adding api key to project by changing some code. 
+Yes, you can use MindsDB cloud by registering the account on mindsdb by visiting https://cloud.mindsdb.com and by adding api key to project by changing some code. 
 
 #### Which dataset you used in the project?
 
-I had used California Housing Prices dataset from kaggle which contains more than 20000 thousand rows. It was 1990 census data.  
+I had used California Housing Prices dataset from kaggle which contains more than 20000 thousand rows. It was 1990 data set.  
 
 #### How long does it take to train the dataset?
 
