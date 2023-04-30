@@ -74,6 +74,10 @@ Step 10] Start the node.js server on your machine:
 node app.js 
 ```
 
+##  Read Complete tutorial On My Hashnode Blog
+[Predicting house price In CA Using MindsDB AI](https://blog.bakkeshks.com/homescopeca-webapp-using-mindsdb)
+
+
 ## FAQ
 
 #### Can I use MindsDB Cloud in this project?
