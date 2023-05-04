@@ -70,7 +70,28 @@ Step 7] Import the housing.csv & give home_table as the name of the table in the
 Step 8] After you press save , it will import data to files database and it had created home_table in the files. 
 
 Step 9] Once table is created , you have to create & train the model with the data.
-
+   #### Train the Model:
+```bash
+CREATE MODEL
+mindsdb.home_model
+FROM files
+(SELECT * FROM house_table)
+PREDICT median_house_value;
+```
+#### Predict the model:
+```bash
+SELECT median_house_value
+FROM home_model
+WHERE longitude='-122.23' AND
+latitude=37.88 AND
+housing_median_age=41 AND
+total_rooms=880 AND
+total_bedrooms=129 AND
+population=322 AND
+households=126 AND
+median_income=8.3252 AND
+ocean_proximity='NEAR BAY'
+```
 Step 10] Now you can write the query & predit the value in the mindsdb editor.
 
 Step 11] Start the node.js server on your machine:
