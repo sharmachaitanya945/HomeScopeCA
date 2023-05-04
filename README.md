@@ -75,7 +75,7 @@ Step 9] Once table is created , you have to create & train the model with the da
 CREATE MODEL
 mindsdb.home_model
 FROM files
-(SELECT * FROM house_table)
+(SELECT * FROM home_table)
 PREDICT median_house_value;
 ```
 #### Predict the model:
