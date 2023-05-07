@@ -8,6 +8,9 @@ HomeScopeCA is a powerful web application that can provide valuable insights to 
 [MIT](https://choosealicense.com/licenses/mit/)
 ### Demo Url 
 [[Demo Live Site]](http://45.79.31.246:3000/)
+### Demo Video
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/jkLIqJwtwqc/0.jpg)](https://www.youtube.com/watch?v=jkLIqJwtwqc)
+
 ### Screenshot
 ![Example Image](public/images/homescopeca_hero.jpg)
 
